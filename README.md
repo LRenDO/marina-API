@@ -1,8 +1,8 @@
 # Marina API
 
 This project was developed for a cloud application course. It is no longer
-live and deployed on google cloud app engine. It requires a credentials.py 
-file with google app engine oauth credentials. Format of the file is below.
+live on google cloud app engine. It requires a credentials.py file with google
+app engine oauth credentials. Format of the file is below.
  
 ```
 credentials= {
