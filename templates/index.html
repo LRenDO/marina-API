@@ -1,0 +1,15 @@
+{% extends 'layouts/base.html' %}
+
+{% block title %}Welcome{% endblock %}
+
+{% block body %}
+<h1>Welcome</h1>
+
+<p>
+	This app will return your first and last name based on your google account. 
+	When you click the link below you will be redirected to give permission for the
+	app to access your profile information.  It will also give you a JWT.
+</p>
+
+</p><a href = {{link_url}}>Click here to get your JWT.</a></p>
+{% endblock %}

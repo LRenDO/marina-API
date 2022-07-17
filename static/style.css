@@ -1,0 +1,13 @@
+h1 {
+	color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body {
+  background-color: #9f9f9f;
+}
+
+a:hover {
+	color: #fff;
+}

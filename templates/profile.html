@@ -1,0 +1,15 @@
+
+{% extends 'layouts/base.html' %}
+
+{% block title %}Profile{% endblock %}
+
+{% block body %}
+<h1>Your Google Profile Info</h1>
+
+	<ul>
+		<li>First Name: {{context["first_name"]}}</li>
+		<li>Last Name: {{context["last_name"]}}</li>
+		<li>ID: {{context["user_id"]}}</li>
+		<li>JWT: {{context["id_token"]}}</li>
+	</ul>
+{% endblock %}

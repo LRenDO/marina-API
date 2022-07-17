@@ -1,0 +1,16 @@
+# Author: Ren Demeis-Ortiz
+# Course: CS493 Cloud Application Development (Assignment 1)
+# Description: Very basic web app that renders a homepage and displays a message with name
+#              with name submitted on homepage.
+#
+# Sources: OSU CS493 Module 3 Exploration
+#          https://canvas.oregonstate.edu/courses/1870359/pages/exploration-google-app-engine-and-python?module_item_id=22099643
+
+runtime: python39
+
+handlers:
+  # This handler routes all requests not caught above to your main app. It is
+  # required when static routes are defined, but can be omitted (along with
+  # the entire handlers section) when there are no static files defined.
+- url: /.*
+  script: auto
