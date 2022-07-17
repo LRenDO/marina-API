@@ -1,6 +1,6 @@
 # Marina API
 
-This project was developed for a cloud application course. It is no longer
+This project was developed for a cloud application course. For complete detail on the API, read demeisol_project.pdf. It is no longer
 live on google cloud app engine. It requires a credentials.py file with google
 app engine oauth credentials. Format of the file is below.
  
